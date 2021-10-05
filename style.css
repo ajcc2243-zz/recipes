@@ -9,3 +9,9 @@ body {
 .osite {
     padding-top: 500px;
 }
+
+@media print {
+    .noprint {
+        visibility: none;
+    }
+}
